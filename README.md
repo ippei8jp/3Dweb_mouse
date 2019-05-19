@@ -43,17 +43,17 @@ NW.jsによるデスクトップアプリ化にも対応。
 NW.jsによってデスクトップアプリ化することもできる。このとき、buildする環境はWindowsでもUbuntuでも構わない。作成されたアプリはWindowsのみ実行できる。
 
 あらかじめ`NW.js` と `NW-builder` をグローバルインストールしておく。
-```
+```bash
 npm install nw nw-builder -g
 ```
 
 NW.jsでとりあえず実行したい場合は以下のように実行する。
-```
+```bash
 npm run nw_start
 ```
 
 デスクトップアプリをbuildするには以下のように実行する。
-```
+```bash
 npm run nw_build
 ```
 
