@@ -1,0 +1,21 @@
+{
+  "name": "3Dweb_mouse",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "main": "index.html",
+  "scripts": {
+    "nw_start": "nw .",
+    "nw_build": "nwbuild -p win32,win64 -o build .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "window": {
+    "resizable": false,
+    "width": 900,
+    "height": 600,
+    "show_in_taskbar": true
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
